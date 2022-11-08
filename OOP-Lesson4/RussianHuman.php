@@ -4,18 +4,11 @@ class RussianHuman extends HumanAbstract
 {
     public function getGreetings(): string
     {
-        return "Привет!";
+        return "Привет";
     }
 
     public function getMyNameIs(): string
     {
         return "Меня зовут ".$this->getName();
     }
-
-    public function introduceYourself(): string
-    {
-        return $this->getGreetings()." ".$this->getMyNameIs();
-    }
-
-
 }
